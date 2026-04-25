@@ -9,15 +9,12 @@ public class Exercitiu2 {
         if (nr >= 0) {
         System.out.println("Pozitiv.");
 
-    } else {
+        } else {
             System.out.println("Negativ.");
         }
 
-
-
-
-  }
-  }
+   }
+}
 
 
 

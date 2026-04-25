@@ -1,11 +1,20 @@
+import java.util.Scanner;
+
 public class Exercitiu4 {
     public static void main(String[] args) {
-        System.out.println("Numerele intre 20 si 40 sunt : ");
-        for (int i = 20; i <= 40; i++) {
-            System.out.print(i + " ");
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Introduceti trei numere: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
-
+        if ( a == b && b ==c ) {
+            System.out.println("Numerele sunt egale");
+        } else if ( a!= b && b != c && a != c ) {
+            System.out.println("Toate numere sunt diferite");
+        } else {
+            System.out.println("Nici nu sunt egale nici diferite");
         }
+
     }
 }
-

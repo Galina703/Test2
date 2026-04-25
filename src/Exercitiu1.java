@@ -13,7 +13,4 @@ public class Exercitiu1 {
         System.out.println("Int din long: " +i2);
 
     }
-
-
-
 }
